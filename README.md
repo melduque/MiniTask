@@ -30,11 +30,11 @@ Ideal para quem quer organizar o dia sem complicação.
 ## 🚀 Tecnologias
 
 - HTML5
-- CSS3 (sem Bootstrap)
-- JavaScript Vanilla
+- CSS3 
+- JavaScript 
 - PHP
 - MySQL
-- Font Awesome (ícones)
+- Font Awesome 
 
 ---
 
