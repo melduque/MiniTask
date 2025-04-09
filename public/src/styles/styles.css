@@ -29,6 +29,7 @@ body{
 #to_do h1 {
     font-size: 2.2rem;
     color: #1e90ff;
+    margin-top: -15px;
     margin-bottom: 0.3em;
     text-align: center;
 }
@@ -136,4 +137,57 @@ body{
     #to_do{
         padding: 20px;
     }
+}
+
+/* BOTÃO DE DARK MODE */
+#darkToggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #1e90ff;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.2s;
+}
+
+#darkToggle:hover {
+    color: #187bcd;
+    transform: scale(1.1);
+}
+
+/* Estilos para modo escuro */
+body.dark {
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #f0f0f0;
+}
+
+body.dark #to_do {
+    background-color: #1f1f2e;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+body.dark #to_do h1 {
+    color: #00bfff;
+}
+
+body.dark #to_do h3 {
+    color: #ccc;
+}
+
+body.dark .to-do-form input[type="text"] {
+    background-color: #2d2d44;
+    color: #fff;
+    border-color: #444;
+}
+
+body.dark .task {
+    background-color: #2c2c3e;
+    border-color: #444;
+}
+
+body.dark .task-description {
+    color: #f0f0f0;
 }
