@@ -5,8 +5,8 @@ Ideal para quem quer organizar o dia sem complicação.
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-em%20desenvolvimento-yellow" />
+  <img src="https://img.shields.io/badge/Made%20with-JavaScript-yellow?logo=javascript" />
   <img src="https://img.shields.io/badge/Made%20with-PHP-blue?logo=php" />
-  <img src="https://img.shields.io/badge/estilo%20customizado-sem%20bootstrap-ff69b4" />
 </p>
 
 ---
@@ -23,7 +23,7 @@ Ideal para quem quer organizar o dia sem complicação.
 
 ## 🖼️ Preview
 
-![Preview do MiniTask](caminho/para/screenshot.png)
+
 
 ---
 
