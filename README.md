@@ -46,5 +46,6 @@ Ideal para quem quer organizar o dia sem complicação.
 ---
 
 ## 🧑‍💻 Desenvolvido por
-Melissa Duque Baía
-Estudante de Análise e Desenvolvimento de Sistemas
+
+**Melissa Duque Baía**
+- Estudante de Análise e Desenvolvimento de Sistemas
