@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f0f4f8, #e2eafc);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 40px 20px;
+    color: #333;
+}
+
+/* CONTAINER PRINCIPAL */
+#to_do{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+/* TÍTULO E SUBTÍTULO */ 
+#to_do h1 {
+    font-size: 2.2rem;
+    color: #1e90ff;
+    margin-bottom: 0.3em;
+    text-align: center;
+}
+
+#to_do h3 {
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* FORMULÁRIOS */
+.to-do-form{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+} 
+
+.to-do-form input[type="text"]{
+    flex: 1;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.to-do-form input[type="text"]:focus{
+    border-color: #1e90ff;
+    outline: none;
+}
+
+.form-button{
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-button:hover{
+    background-color: #187bcd;
+}
+
+/* TASK */ 
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9fbff;
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: box-shadow 0.3s;
+}
+
+.task:hover{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.task input[type="checkbox"]{
+    margin-right: 12px;
+    accent-color: #1e90ff;
+    transform: scale(1.2);
+}
+
+.checkbox-description{
+    display: flex;
+}
+
+.task-actions{
+    display: flex;
+    gap: 10px;
+}
+
+.action-button {
+    color:#1e90ff;
+    font-size: 1.1rem;
+    transition: color 0.2s;
+}
+
+.edit-button:hover {
+    color:#187bcd;
+}
+
+.delete-button:hover {
+    color: #ff4d4f;
+}
+
+/* EDITAR TASK */
+.confirm-button {
+    background-color: #28a745;
+}
+
+.confirm-button:hover {
+    background-color: #218838;
+}
+
+/* Responsivo */
+@media (max-width: 480px) {
+    #to_do{
+        padding: 20px;
+    }
+}
